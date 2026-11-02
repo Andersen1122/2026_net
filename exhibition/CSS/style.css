@@ -1,0 +1,128 @@
+    <header>
+        <a class="logo" href="https://anthology.rhizome.org/">
+            NET ART<br>ANTHOLOGY
+        </a>
+        <div>ONLINE EXHIBITION / 2026</div>
+    </header>
+
+    <section class="intro">
+        <h1>VISUAL<br>STIMULATION</h1>
+        <p class="curator">AN ONLINE NET ART EXHIBITION</p>
+        <p class="curator">Curated by [Your Name]</p>
+    </section>
+
+    <section class="curatorial-text">
+        <h2>About the Exhibition</h2>
+
+        <p>
+            The internet is packed with images, colors, movement, and
+            interaction. My exhibition, Visual Stimulation, explores how
+            net art can change the way we see and experience a website.
+            The three selected works use different visual strategies to
+            attract attention and challenge normal browsing experiences.
+        </p>
+
+        <p>
+            In <em>The Revolving Internet</em> (2010), Constant Dullaart
+            rotates the Google search page, making a familiar website
+            look unusual. In <em>Into Time .com</em> (2010), Rafaël
+            Rozendaal uses changing colors and geometric forms to create
+            an interactive visual experience. Shu Lea Cheang's
+            <em>Brandon</em> (1998–1999) uses web pages, images, and
+            interactive storytelling to explore identity and online
+            experiences.
+        </p>
+
+        <p>
+            I chose these works because visual stimulation is not only
+            about bright colors or animation. It can also come from
+            unusual layouts, interaction, and the way information is
+            presented on a screen. Together, these works show how the
+            internet can become a space for artistic expression and new
+            ways of seeing. They encourage viewers to question how
+            websites influence attention, perception, and experience.
+        </p>
+    </section>
+
+    <main class="artworks">
+
+        <article class="artwork">
+            <div class="visual visual-one">
+                THE WEB<br>IS TILTED
+            </div>
+
+            <h2>The Revolving Internet</h2>
+            <p class="artist">Constant Dullaart</p>
+            <p class="year">2010</p>
+
+            <p class="description">
+                This net art project rotates the Google search page while
+                keeping its functions available. It transforms a familiar
+                browsing experience into something strange and unexpected,
+                encouraging viewers to reconsider their relationship
+                with Google.
+            </p>
+
+            <a class="visit"
+               href="https://therevolvinginternet.com/"
+               target="_blank" rel="noopener noreferrer">
+                VISIT PROJECT ↗
+            </a>
+        </article>
+
+        <article class="artwork">
+            <div class="visual visual-two">
+                <span></span>
+            </div>
+
+            <h2>Into Time .com</h2>
+            <p class="artist">Rafaël Rozendaal</p>
+            <p class="year">2010</p>
+
+            <p class="description">
+                This browser-based artwork explores color, shape, and
+                movement. Its changing visual elements turn the browser
+                window into an interactive composition and show how a
+                simple website can become an artwork.
+            </p>
+
+            <a class="visit"
+               href="https://intotime.com/"
+               target="_blank" rel="noopener noreferrer">
+                VISIT PROJECT ↗
+            </a>
+        </article>
+
+        <article class="artwork">
+            <div class="visual visual-three">
+                WHO ARE<br>WE ONLINE?
+            </div>
+
+            <h2>Brandon</h2>
+            <p class="artist">Shu Lea Cheang</p>
+            <p class="year">1998–1999</p>
+
+            <p class="description">
+                Brandon is a web-based narrative and performance project
+                that explores identity, gender, and online experience.
+                Through connected pages, images, and storytelling, it
+                invites viewers to think about how identity is represented
+                and experienced in digital spaces.
+            </p>
+
+            <a class="visit"
+               href="https://brandon.guggenheim.org/"
+               target="_blank" rel="noopener noreferrer">
+                VISIT PROJECT ↗
+            </a>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>VISUAL STIMULATION — NET ART EXHIBITION</p>
+        <p>Three works. Three experiences. New ways of seeing the internet.</p>
+    </footer>
+
+</body>
+</html>
