@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f3e9;
+    color: #263b2b;
+    text-align: center;
+    padding: 30px;
+    transition: 0.8s;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
+    letter-spacing: 4px;
+}
+
+p {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.scene {
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: linear-gradient(#9ed5f5, #e2edce);
+    transition: 0.8s;
+}
+
+.sun {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #ffdc75;
+    border-radius: 50%;
+    top: 60px;
+    right: 100px;
+}
+
+.forest {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+    background: #477b4c;
+    clip-path: polygon(
+        0 100%, 0 50%, 10% 15%, 20% 55%,
+        30% 10%, 40% 55%, 50% 20%,
+        60% 55%, 70% 5%, 80% 55%,
+        90% 15%, 100% 55%, 100% 100%
+    );
+}
+
+.factory {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 60%;
+    height: 200px;
+    background: #555e66;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.factory::before {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: 40%;
+    width: 45px;
+    height: 120px;
+    background: #444d55;
+}
+
+.factory::after {
+    content: "";
+    position: absolute;
+    top: -160px;
+    left: 42%;
+    width: 80px;
+    height: 50px;
+    background: #9ba0a2;
+    border-radius: 50%;
+    filter: blur(15px);
+}
+
+button {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    z-index: 5;
+}
+
+body.industrial {
+    background: #151c2b;
+    color: white;
+}
+
+body.industrial .scene {
+    background: linear-gradient(#101827, #343b40);
+}
+
+body.industrial .sun {
+    background: #e8e5d4;
+    box-shadow: 0 0 50px #e8e5d4;
+}
+
+body.industrial .forest {
+    opacity: 0;
+}
+
+body.industrial .factory {
+    opacity: 1;
+}
+
+body.industrial button {
+    background: #333d4b;
+    color: white;
+}
